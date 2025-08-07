@@ -21,7 +21,7 @@ try:
                                  labels={'odometer': 'Kilometraje',
                                          'price': 'Precio'},
                                  color='manufacturer',  # opcional: colorear por fabricante
-                                 hover_data=['model', 'year'])
+                                 hover_data=['model', 'model_year'])
         st.plotly_chart(fig_scatter)
 
 except FileNotFoundError:
