@@ -20,7 +20,7 @@ try:
                                  title='Precio vs. Kilometraje',
                                  labels={'odometer': 'Kilometraje',
                                          'price': 'Precio'},
-                                 color='manufacturer',  # opcional: colorear por fabricante
+                                 color='paint_color',  # opcional: colorear por color
                                  hover_data=['model_year', 'model'])
         st.plotly_chart(fig_scatter)
 
